@@ -44,4 +44,12 @@ if (!function_exists('redirect')) {
         exit();
     }
 }
+
+// Define the function to get the applicant's profile
+function getApplicantProfile($userId, $pdo) {
+    $stmt = $pdo->prepare("SELECT id, email,first_name,last_name, created_at FROM users WHERE id = ?");
+    $stmt->execute([$userId]);
+    return $stmt->fetch();
+
+}
 ?>

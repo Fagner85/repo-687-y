@@ -1,9 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
 <?php
 require_once __DIR__ . '/../includes/config.php';
 
 if (isLoggedIn()) {
     redirect(isAdmin() ? '/admin/dashboard.php' : '/applicant/dashboard.php');
 }
+
+$error = ''; // Initialize the $error variable
+$email = ''; // Initialize the $email variable
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email = $_POST['email'] ?? '';
@@ -51,16 +64,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         </div>
                         <button type="submit" class="btn btn-primary w-100">Login</button>
                     </form>
-                    
-                    <div class="mt-3 text-center">
-                        <p>Default admin credentials:</p>
-                        <p><strong>Email:</strong> admin@example.com</p>
-                        <p><strong>Password:</strong> admin123</p>
-                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 <?php include '../includes/footer.php'; ?>
+</body>
+</html>
