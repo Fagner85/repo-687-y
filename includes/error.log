@@ -1,0 +1,128 @@
+[05-Apr-2025 12:38:33 UTC] Login attempt for email: admin@example.com
+[05-Apr-2025 12:38:33 UTC] User data: Array
+(
+    [id] => 1
+    [email] => admin@example.com
+    [password] => $2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi
+    [role] => admin
+)
+
+[05-Apr-2025 12:38:33 UTC] Stored hash: $2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi
+[05-Apr-2025 12:38:33 UTC] Input password: admin123
+[05-Apr-2025 12:38:33 UTC] Password verification failed
+[05-Apr-2025 12:38:33 UTC] Failed login attempt for email: admin@example.com
+[05-Apr-2025 12:38:58 UTC] Login attempt for email: admin@example.com
+[05-Apr-2025 12:38:58 UTC] User data: Array
+(
+    [id] => 1
+    [email] => admin@example.com
+    [password] => $2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi
+    [role] => admin
+)
+
+[05-Apr-2025 12:38:58 UTC] Stored hash: $2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi
+[05-Apr-2025 12:38:58 UTC] Input password: admin123
+[05-Apr-2025 12:38:58 UTC] Password verification failed
+[05-Apr-2025 12:38:58 UTC] Failed login attempt for email: admin@example.com
+[05-Apr-2025 12:42:26 UTC] Login attempt for email: admin@example.com
+[05-Apr-2025 12:42:26 UTC] User data: Array
+(
+    [id] => 1
+    [email] => admin@example.com
+    [password] => $2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi
+    [role] => applicant
+)
+
+[05-Apr-2025 12:42:26 UTC] Stored hash: $2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi
+[05-Apr-2025 12:42:26 UTC] Input password: admin123
+[05-Apr-2025 12:42:26 UTC] Password verification failed
+[05-Apr-2025 12:42:26 UTC] Failed login attempt for email: admin@example.com
+[05-Apr-2025 12:42:39 UTC] Login attempt for email: admin@example.com
+[05-Apr-2025 12:42:39 UTC] User data: Array
+(
+    [id] => 1
+    [email] => admin@example.com
+    [password] => $2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi
+    [role] => applicant
+)
+
+[05-Apr-2025 12:42:39 UTC] Stored hash: $2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi
+[05-Apr-2025 12:42:39 UTC] Input password: admin123
+[05-Apr-2025 12:42:39 UTC] Password verification failed
+[05-Apr-2025 12:42:39 UTC] Failed login attempt for email: admin@example.com
+[05-Apr-2025 12:42:51 UTC] Login attempt for email: admin@example.com
+[05-Apr-2025 12:42:51 UTC] User data: Array
+(
+    [id] => 1
+    [email] => admin@example.com
+    [password] => $2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi
+    [role] => applicant
+)
+
+[05-Apr-2025 12:42:51 UTC] Stored hash: $2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi
+[05-Apr-2025 12:42:51 UTC] Input password: admin123
+[05-Apr-2025 12:42:51 UTC] Password verification failed
+[05-Apr-2025 12:42:51 UTC] Failed login attempt for email: admin@example.com
+[05-Apr-2025 12:43:33 UTC] Login attempt for email: toolbox2018@hotmail.com
+[05-Apr-2025 12:43:33 UTC] User data: Array
+(
+    [id] => 2
+    [email] => toolbox2018@hotmail.com
+    [password] => $2y$10$AJYZN98mBxkYj7Hofgv7KutMfUc0jlZtrIHM8EIYD.wGUjC2Oh2jO
+    [role] => admin
+)
+
+[05-Apr-2025 12:43:33 UTC] Stored hash: $2y$10$AJYZN98mBxkYj7Hofgv7KutMfUc0jlZtrIHM8EIYD.wGUjC2Oh2jO
+[05-Apr-2025 12:43:33 UTC] Input password: solotone
+[05-Apr-2025 12:43:33 UTC] Login successful for user ID: 2
+[05-Apr-2025 12:43:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function isAdmin() in C:\Users\USER\Desktop\USS-AGENCY\admin\dashboard.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\Users\USER\Desktop\USS-AGENCY\admin\dashboard.php on line 5
+[05-Apr-2025 12:44:24 UTC] Login attempt for email: toolbox2018@hotmail.com
+[05-Apr-2025 12:44:24 UTC] User data: Array
+(
+    [id] => 2
+    [email] => toolbox2018@hotmail.com
+    [password] => $2y$10$AJYZN98mBxkYj7Hofgv7KutMfUc0jlZtrIHM8EIYD.wGUjC2Oh2jO
+    [role] => admin
+)
+
+[05-Apr-2025 12:44:24 UTC] Stored hash: $2y$10$AJYZN98mBxkYj7Hofgv7KutMfUc0jlZtrIHM8EIYD.wGUjC2Oh2jO
+[05-Apr-2025 12:44:24 UTC] Input password: solotone
+[05-Apr-2025 12:44:24 UTC] Login successful for user ID: 2
+[05-Apr-2025 12:44:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function isAdmin() in C:\Users\USER\Desktop\USS-AGENCY\admin\dashboard.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\Users\USER\Desktop\USS-AGENCY\admin\dashboard.php on line 5
+[05-Apr-2025 12:49:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function isAdmin() in C:\Users\USER\Desktop\USS-AGENCY\admin\dashboard.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\Users\USER\Desktop\USS-AGENCY\admin\dashboard.php on line 6
+[05-Apr-2025 12:49:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function isAdmin() in C:\Users\USER\Desktop\USS-AGENCY\admin\dashboard.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\Users\USER\Desktop\USS-AGENCY\admin\dashboard.php on line 6
+[05-Apr-2025 12:50:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function isAdmin() in C:\Users\USER\Desktop\USS-AGENCY\admin\dashboard.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\Users\USER\Desktop\USS-AGENCY\admin\dashboard.php on line 6
+[05-Apr-2025 12:50:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function isAdmin() in C:\Users\USER\Desktop\USS-AGENCY\admin\dashboard.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\Users\USER\Desktop\USS-AGENCY\admin\dashboard.php on line 6
+[05-Apr-2025 12:50:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function isApplicant() in C:\Users\USER\Desktop\USS-AGENCY\includes\header.php:23
+Stack trace:
+#0 C:\Users\USER\Desktop\USS-AGENCY\index.php(18): include()
+#1 {main}
+  thrown in C:\Users\USER\Desktop\USS-AGENCY\includes\header.php on line 23
+[05-Apr-2025 12:51:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function isApplicant() in C:\Users\USER\Desktop\USS-AGENCY\includes\header.php:23
+Stack trace:
+#0 C:\Users\USER\Desktop\USS-AGENCY\index.php(18): include()
+#1 {main}
+  thrown in C:\Users\USER\Desktop\USS-AGENCY\includes\header.php on line 23
+[05-Apr-2025 12:52:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function isApplicant() in C:\Users\USER\Desktop\USS-AGENCY\includes\header.php:23
+Stack trace:
+#0 C:\Users\USER\Desktop\USS-AGENCY\index.php(18): include()
+#1 {main}
+  thrown in C:\Users\USER\Desktop\USS-AGENCY\includes\header.php on line 23

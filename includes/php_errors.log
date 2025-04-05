@@ -1,0 +1,6 @@
+[05-Apr-2025 14:57:06 Europe/Berlin] Failed login attempt for email: admin@example.com
+[05-Apr-2025 14:58:23 Europe/Berlin] Failed login attempt for email: justina123@gmail.com
+[05-Apr-2025 15:00:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function isApplicant() in C:\Users\USER\Desktop\USS-AGENCY\applicant\dashboard.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\Users\USER\Desktop\USS-AGENCY\applicant\dashboard.php on line 5
